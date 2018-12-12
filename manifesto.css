@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body  {
+  background-color: #ffffff;
+}
+                                  /* big containers */
+.container {
+  width: 420px;
+  margin: auto;
+  border: 10px solid #eae1e1;
+  overflow: hidden;
+}
+
+.firstaside  {
+  float: left;
+  width: 200px;
+  height: 400px;
+  background-color: #f65a5a;
+}
+
+.secondaside  {
+  float: left;
+  width: 200px;
+  height: 400px;
+}
+
+section  {
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+                                /* small containers */
+.firstbox {
+  float: inherit;
+  width: 200px;
+  height: 200px;
+  background-color: #3959b0;
+}
+
+.secondbox  {
+  float: inherit;
+  width: 200px;
+  height: 200px;
+  background-color: #ccffff;
+}
+
+.thirdbox {
+  float: inherit;
+  width: 200px;
+  height: 200px;
+  background-color: #009999;
+}
+                                      /* paragraphs and text */
+.bannerone  {
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: inherit;
+  padding: 30px 15px 5px 15px;
+}
+
+.bannertwo {
+  font-size: 22px;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  width: inherit;
+  padding: 25px 15px 5px 15px;
+}
+
+.ditty  {
+  font-size: 18px;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  padding: 55px 10px 10px 10px;
+}
+
+.dittyfocus {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
